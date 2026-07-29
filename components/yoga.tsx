@@ -33,12 +33,6 @@ export function Yoga() {
               key={s.label}
               className="group relative aspect-[4/5] overflow-hidden rounded-3xl border border-border/50 bg-background"
             >
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 top-6 z-0 text-center font-display text-6xl font-extrabold uppercase tracking-tight text-foreground/10"
-              >
-                Yoga
-              </span>
               <Image
                 src={s.src}
                 alt={`${s.label} yoga pose`}
