@@ -26,12 +26,12 @@ export function WhyWorks() {
         <div className="flex flex-col justify-between gap-6">
           <div className="rounded-3xl bg-background/70 p-6">
             <span className="text-xs font-semibold uppercase tracking-widest text-accent">
-              Why Peak Form Works
+              Built On The Science
             </span>
             <p className="mt-3 text-lg leading-relaxed text-foreground text-pretty">
-              We go beyond fitness by empowering you with insights and guidance
-              to boost your blood cell production, enhance circulation, and
-              improve overall heart health.
+              Real training changes what happens inside you. The right work
+              strengthens your heart, sharpens circulation, and helps your body
+              recover and adapt faster with every session.
             </p>
           </div>
 

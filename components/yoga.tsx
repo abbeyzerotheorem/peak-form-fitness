@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 
 const STYLES = [
-  { src: '/images/yoga-1.png', label: 'Muscle Stretch' },
-  { src: '/images/yoga-2.png', label: 'Relaxation Flow' },
-  { src: '/images/yoga-3.png', label: 'Balance Booster' },
-  { src: '/images/yoga-4.png', label: 'Flexibility Enhancer' },
-  { src: '/images/yoga-5.png', label: 'Full-Body Stretch' },
-  { src: '/images/yoga-6.png', label: 'Strength Flow' },
+  { src: '/images/yoga-1.png', label: 'Deep Mobility' },
+  { src: '/images/yoga-2.png', label: 'Calm & Restore' },
+  { src: '/images/yoga-3.png', label: 'Steady Balance' },
+  { src: '/images/yoga-4.png', label: 'Open & Lengthen' },
+  { src: '/images/yoga-5.png', label: 'Sun Sequence' },
+  { src: '/images/yoga-6.png', label: 'Power Flow' },
 ]
 
 export function Yoga() {
@@ -16,13 +16,14 @@ export function Yoga() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end">
           <h2 className="font-display text-4xl font-bold leading-tight tracking-tight text-balance text-foreground sm:text-5xl">
-            Find your perfect
+            A flow for every
             <br />
-            yoga <span className="italic text-accent">style</span>
+            kind of <span className="italic text-accent">day</span>
           </h2>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-            Explore different yoga styles tailored to your needs—from flexibility
-            and balance to relaxation and strength—guided by expert instructors.
+            Pick the practice that fits your mood and your goal—wind down,
+            build balance, or move with intensity. Each class is led by
+            instructors who meet you where you are.
           </p>
         </div>
 
@@ -63,7 +64,7 @@ export function Yoga() {
             href="#events"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-sm font-semibold uppercase tracking-widest text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
-            Check All Styles
+            Browse All Classes
             <ArrowRight className="size-4" />
           </a>
         </div>

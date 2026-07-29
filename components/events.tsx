@@ -3,25 +3,25 @@ import { Sunburst } from '@/components/brand'
 const EVENTS = [
   {
     n: '01',
-    title: 'Peak Wellness Expo',
+    title: 'Open House Fitness Fair',
     meta: 'Full-day event · 01.03.2026',
     place: 'Summit Arena',
   },
   {
     n: '02',
-    title: 'Mind Balance Retreat',
+    title: 'Reset & Recover Weekend',
     meta: 'Full-day event · 08.03.2026',
     place: 'Summit Arena',
   },
   {
     n: '03',
-    title: 'Strength Training Workshop',
+    title: 'Lift Stronger Clinic',
     meta: 'Full-day workshop · 14.04.2026',
     place: 'Summit Arena',
   },
   {
     n: '04',
-    title: 'Meal Planning Seminar',
+    title: 'Eat To Perform Class',
     meta: 'Full-day seminar · 23.04.2026',
     place: 'Summit Arena',
   },
@@ -35,7 +35,7 @@ function Marquee() {
         {items.map((_, i) => (
           <span key={i} className="flex items-center">
             <span className="mx-8 font-display text-4xl font-bold uppercase tracking-tight text-foreground/80 sm:text-5xl">
-              Exhibition
+              Upcoming
             </span>
             <Sunburst className="size-8 text-accent/70" lines={32} />
           </span>
@@ -71,7 +71,7 @@ export function Events() {
                 href="#contact"
                 className="inline-flex w-fit items-center justify-center rounded-full border border-border bg-card px-6 py-3 text-xs font-semibold uppercase tracking-widest text-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
               >
-                Reserve Your Spot
+                Save My Place
               </a>
             </li>
           ))}

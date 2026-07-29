@@ -14,13 +14,13 @@ export function Meals() {
         {/* Copy */}
         <div>
           <h2 className="font-display text-4xl font-bold leading-tight tracking-tight text-balance text-foreground sm:text-5xl">
-            Fit your body with{' '}
-            <span className="italic text-accent">balanced meals</span>
+            Fuel your progress with{' '}
+            <span className="italic text-accent">smart nutrition</span>
           </h2>
           <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground">
-            With options for every dietary preference—including vegan,
-            non-vegan, and allergy-friendly choices—our recipes help you enjoy
-            delicious, nutritious meals while staying on track with your goals.
+            Whether you eat plant-based, love protein, or juggle a few
+            allergies, our meal plans keep things simple—tasty food that
+            matches how hard you train, without the guesswork.
           </p>
 
           {/* Diet toggle */}
@@ -100,7 +100,7 @@ export function Meals() {
                 <div className="h-full w-[87%] rounded-full bg-accent" />
               </div>
               <p className="mt-2 text-[11px] text-muted-foreground">
-                Stay on track with daily meal guidance
+                Daily targets that adjust to your training
               </p>
             </div>
           </div>

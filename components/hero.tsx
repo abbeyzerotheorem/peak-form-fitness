@@ -30,15 +30,15 @@ export function Hero() {
         <div className="relative z-10 flex flex-col justify-center">
           <Sunburst className="mb-6 size-12 text-accent/70 lg:size-14" lines={40} />
           <h1 className="font-display text-5xl font-bold leading-[0.95] tracking-tight text-balance text-foreground sm:text-6xl lg:text-7xl">
-            Perfect fitness
+            Train with
             <br />
-            path with{' '}
-            <span className="italic text-accent">Peak Form</span>
+            purpose, rise to{' '}
+            <span className="italic text-accent">peak form</span>
           </h1>
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
-            Unlock your full potential with tailored training programs, all
-            crafted to help you achieve your fitness goals and reach your peak
-            condition.
+            Every program is built around you—your goals, your pace, your
+            body. Show up consistently and we&apos;ll help you turn effort into
+            lasting strength.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-6">
@@ -51,7 +51,7 @@ export function Hero() {
             </a>
             <div>
               <p className="text-sm font-semibold text-foreground">
-                Join Our Community
+                Follow Along
               </p>
               <div className="mt-1.5 flex items-center gap-3 text-muted-foreground">
                 {['Discord', 'Instagram', 'YouTube', 'X'].map((s) => (
@@ -74,7 +74,7 @@ export function Hero() {
                 500k+
               </p>
               <p className="mt-1 max-w-[10rem] text-xs text-muted-foreground">
-                Personalized training programs delivered
+                Custom workout plans built and shared
               </p>
             </div>
             <div>
@@ -82,7 +82,7 @@ export function Hero() {
                 10k+
               </p>
               <p className="mt-1 max-w-[10rem] text-xs text-muted-foreground">
-                Active members achieving real results
+                Members training with us every week
               </p>
             </div>
           </div>
@@ -103,14 +103,14 @@ export function Hero() {
             {/* Weekly overview card */}
             <div className="absolute right-4 top-4 w-44 rounded-2xl border border-border/60 bg-background/85 p-3 shadow-lg backdrop-blur-md">
               <p className="text-[11px] font-semibold text-foreground">
-                Weekly Overview
+                Your Week
               </p>
               <p className="mb-2 text-[9px] text-muted-foreground">
                 Apr 01 – Apr 07
               </p>
               <MiniBars />
               <p className="mt-2 text-[9px] font-medium text-muted-foreground">
-                Peak performance on Thursday
+                Strongest session on Thursday
               </p>
             </div>
 
@@ -132,9 +132,9 @@ export function Hero() {
               </div>
               <div>
                 <p className="text-[11px] font-semibold text-foreground">
-                  Members Joined
+                  New This Month
                 </p>
-                <p className="text-[10px] text-muted-foreground">12k+ this month</p>
+                <p className="text-[10px] text-muted-foreground">12k+ signed up</p>
               </div>
             </div>
           </div>
